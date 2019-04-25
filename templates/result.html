@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body style="background-color: #008080">
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			
+		</div>
+		<h1 style="text-align:-webkit-center;font-size:70;"> Review Detection</h1>
+		
+	</div>
+	</header>
+	<div class="results">
+
+
+		
+		
+	{% if y_predict == truthf %}
+	<h2 style="color:green;text-align: center">Truthful</h2>
+	<h3 style="text-align: center">Yupp!! </h3>
+	{% else %}
+	<h2 style="color:red;text-align: center">Deceptive</h2>
+	<h3 style="text-align: center">Aww!! </h3>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>

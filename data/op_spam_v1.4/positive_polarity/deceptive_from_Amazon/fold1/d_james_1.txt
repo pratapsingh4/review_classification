@@ -1,0 +1,5 @@
+Got the laptop in time. The packing was good but the laptop box seal was broken. It's really disappointing.
+Other than that everything is ok and laptop is working fine.
+Found some difficulty in installing windows but all's well that ends well.
+Note: use command prompt to create bootable usb instead of Rufus or media creation tool.
+Also, Get 10% CB by Ordering through vqr .in/90
